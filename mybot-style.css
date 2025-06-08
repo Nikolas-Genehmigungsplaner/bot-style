@@ -1,0 +1,32 @@
+/* === Copilot Style für Botpress Webchat === */
+#bp-web-widget {
+  border-radius: 16px !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(12px) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2) !important;
+  overflow: hidden !important;
+  border: none !important;
+}
+
+/* Header und Footer unsichtbar bzw. weich */
+.bp-header, .bp-footer {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Eingabefeld rund und clean */
+input, textarea {
+  border-radius: 12px !important;
+  border: 1px solid #ccc !important;
+  padding: 10px !important;
+}
+
+/* Scrollbar weich ausblenden */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
